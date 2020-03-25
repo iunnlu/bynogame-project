@@ -1,0 +1,20 @@
+$custom-color: #f2f2f2;
+
+.home-container{
+    .movies-container{
+        border: 1px solid $custom-color;
+        border-radius: 5px;
+        padding: 15px;
+        box-shadow: -1px 4px 11px -3px rgba(0,0,0,0.75);
+        background-color: $custom-color;
+        margin-bottom: 50px;
+    }
+    @media (min-width: 991.98px) {
+        #first-col{
+            padding-right: 0px;
+        }
+        #last-col{
+            padding-left: 0px;
+        }
+    }
+}

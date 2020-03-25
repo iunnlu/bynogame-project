@@ -1,0 +1,9 @@
+$custom-color: #292929;
+
+.navbar{
+    background-color: $custom-color;
+    .nav-link {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
